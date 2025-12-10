@@ -23,7 +23,7 @@ jobs:
               "origin_repo": "git@github.com:mtthwcmpbll/moderne-repo-sync-origin.git",
               "destination_repo": "git@github.com:mtthwcmpbll/moderne-repo-sync-destination.git",
               "recipes": [
-                "org.openrewrite.java.testing.junit5.JUnit5BestPractices",
+                "io.moderne.java.spring.boot3.SpringBoot3BestPractices",
                 "org.openrewrite.staticanalysis.CommonStaticAnalysis"
               ]
             }
